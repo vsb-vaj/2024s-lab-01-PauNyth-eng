@@ -21,3 +21,4 @@ module.printLength(numbers);
 module.printSALDifference(numbers);
 module.printSmallestItem(numbers);
 module.printSum(numbers);
+module.printNumsMultipliedBy2(numbers);

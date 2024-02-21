@@ -6,11 +6,7 @@
 // Write these functions:
 
 // This block generates array with random length with values between 1-100
-export let numbers = [];
-const length = Math.ceil(Math.random() * 10) + 5;
-for (let i = 0; i < length; i = i + 1) {
-  numbers.push(Math.ceil(Math.random() * 100));
-}
+
 
 // a) Function which will print to console a whole array
 export const printArray = (numbers) => {
@@ -91,6 +87,5 @@ export const printEvenNums = (numbers) => {
 // Example: printNumsMultipliedBy2([1,2,3]) -> [2,4,6]
 export const printNumsMultipliedBy2 = (numbers) => {
   // Your code:
-  console.log(numbers.map((number) => number * 2));
-
+  console.log(numbers.map((number) => number * 2))
 };
